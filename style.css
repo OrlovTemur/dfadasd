@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.top h1 {
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.top span {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 10px 0px 10px;
+}
+
+form {
+    margin-top: 45px;
+    
+}
+
+.list {
+    text-align: start;
+    width: 633px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-bottom: 31px;
+}
+
+.item p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4200FF;
+    margin-bottom: 6px;
+}
+
+
+.item h1{
+    font-weight: 400;
+    font-size: 11px;
+    color: #595959;
+    margin-top: 6px;
+}
+
+.element {
+    border: 3px solid #543FD3;
+    border-radius: 4px;
+    padding: 20px 12px;
+    width: 277px;
+    outline:none;
+}
+
+.itemNoActive {
+    margin-bottom: 31px;
+}
+
+.itemNoActive p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+
+.itemNoActive h1{
+    font-weight: 400;
+    font-size: 11px;
+    color: #595959;
+    margin-top: 6px;
+}
+
+.elementNoActive {
+    border: 1px solid #949494;
+    border-radius: 4px;
+    padding: 20px 12px;
+    width: 277px;
+    outline:none;
+}
+
+.btn {
+    width: 277px;
+    height: 59px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
